@@ -138,6 +138,18 @@ public class Picture
         }
     }
     
+    public void amanecer() {
+    
+        if (sun != null && moon !=null) 
+        {
+            moon.makeInvisible();
+            sun.makeVisible();
+            sun.slowMoveVertical(-200);
+        }
+                                        
+    
+    }
+    
 }
 
     
